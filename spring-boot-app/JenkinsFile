@@ -113,7 +113,7 @@ pipeline {
 
     stage('Build and Push Docker Image') {
       environment {
-        awsAccountId = '771213953045'
+        awsAccountId = '771312953045'
         region = 'us-east-1'
         repositoryName = 'jjtech-demo'
         dockerImageTag = "${BUILD_NUMBER}"
